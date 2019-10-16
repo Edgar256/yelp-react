@@ -5,6 +5,31 @@
   background-size: cover;
   height: 600px;
 }
-.Header{
-  background-color: azure;
+.bg-light, .navbar-white, .nav-link{
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.empty-menu-space{
+  width: 450px;
+}
+.btn-login{
+  color: #fff;
+}
+.btn-signup{
+  color: #fff;
+  border: 2px solid #fff;
+}
+.hero-wrapper{
+  padding-top: 220px;
+  background-color: transparent;padding-top: 220px;
+}
+.hero-logo{
+  background-image: url(https://s3-media0.fl.yelpcdn.com/assets/public/default.yelp_design_web.yji-b085a60….png);
+  background-image: url(https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_large_assets/3d49d178c52c/assets/img/home/hero_photos/gHNcNahbSwCaGQGT3QYdPQ.jpg);
+}
+.btn-search{
+  background-color: #d32323 !important;
+}
+.custom-select{
+  height: calc(1.5em + 0.75rem + 15px);
 }
