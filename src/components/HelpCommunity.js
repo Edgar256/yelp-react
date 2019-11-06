@@ -9,7 +9,7 @@ function  HelpCommunity(props){
             <div className="col-sm-8">
                 <h2>{props.title}</h2>
                 <p>{props.text}</p>
-                <button className="btn btn-danger">Start Your First Review</button>
+                <button className="btn btn-danger yelp-red-bg">Start Your First Review</button>
             </div>
         </div>
     )

@@ -66,3 +66,12 @@
   border: 1px solid #e5e5e5;
   border-radius: 5px;
 }
+.yelp-red{
+  color: #d32323;
+}
+.yelp-red-bg{
+  background-color: #d32323;
+}
+.center-text{
+  text-align: center;
+}

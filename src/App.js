@@ -4,6 +4,7 @@ import Navigation from './components/Navigation';
 import yelpLogo from './images/default.yelp_design_web.yji-b085a608c15f110ce750ccef3e1e1db0.png';
 import HomeIconLink from './components/HomeIconLink';
 import HelpCommunity from './components/HelpCommunity';
+import Locations from './components/Locations';
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
         title="Help the community"
         text="Find Yelp reviews helpful? Start helping others by sharing your experience."
       />
+      <Locations />
       </div>      
     </body>
   );
