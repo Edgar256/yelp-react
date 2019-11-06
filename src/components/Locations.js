@@ -1,10 +1,11 @@
 import React from 'react';
 import LocationButton from './LocationButton';
+import BusinessCard from './BusinessCard';
 
 function  Locations(){
     return(
         <div className="center-text">
-            <h3 className="yelp-red">Yelp in San Francisco</h3>
+            <h4 className="yelp-red">Yelp in San Francisco</h4>
             <div className="locations-bar">
                 <div className="col-sm-8">                    
                     <LocationButton 
@@ -27,6 +28,29 @@ function  Locations(){
                     />
                     <LocationButton 
                         name="New HampShire"
+                    />
+                </div>
+            </div>
+            <div className="">
+                <h5 className="yelp-red center-text">Hot New Businesses</h5>
+                <div className="business-card-wrapper">
+                    <BusinessCard 
+                        name="Hina Yamato"
+                        location="Tokyo"
+                        category="Japanense, Beer Bar"
+                        time="2 weeks"
+                    />
+                    <BusinessCard 
+                        name="Sheraton Hotel"
+                        location="Kampala"
+                        category="Hotel"
+                        time="5 years"
+                    />
+                    <BusinessCard 
+                        name="Oki Sushi"
+                        location="Noe Valley"
+                        category="Sushi Bars, Japanese"
+                        time="2 years"
                     />
                 </div>
             </div>

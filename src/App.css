@@ -75,3 +75,18 @@
 .center-text{
   text-align: center;
 }
+.business-card-wrapper{
+  display: flex;
+}
+.business-card{
+  width: 33.3%;
+  border: 1px solid #e5e5e5;
+  margin: 10px;
+  text-align: left;
+}
+.photo-img{
+  width: 100%;
+}
+.business-details{
+  padding: 15px;
+}
