@@ -90,3 +90,8 @@
 .business-details{
   padding: 15px;
 }
+.category{
+  display: inline-grid;
+  padding: 20px;
+  width: 25%;
+}
