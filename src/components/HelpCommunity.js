@@ -4,7 +4,7 @@ function  HelpCommunity(props){
     return(
         <div className="help-community">
             <div className="col-sm-4">
-                {props.image}
+                <img src={props.source} alt="community images"/>
             </div>
             <div className="col-sm-8">
                 <h2>{props.title}</h2>

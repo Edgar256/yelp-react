@@ -39,18 +39,21 @@ function  Locations(){
                         location="Tokyo"
                         category="Japanense, Beer Bar"
                         time="2 weeks"
+                        source="https://s3-media2.fl.yelpcdn.com/bphoto/-YVDSBrd5eQ4mlGFdfnUjA/l.jpg" srcset="https://s3-media2.fl.yelpcdn.com/bphoto/-YVDSBrd5eQ4mlGFdfnUjA/o.jpg 1.67x"
                     />
                     <BusinessCard 
                         name="Sheraton Hotel"
                         location="Kampala"
                         category="Hotel"
                         time="5 years"
+                        source="_https://s3-media4.fl.yelpcdn.com/bphoto/GmIVpSkcTNO8SQpjmw3aLg/o.jpg"
                     />
                     <BusinessCard 
                         name="Oki Sushi"
                         location="Noe Valley"
                         category="Sushi Bars, Japanese"
                         time="2 years"
+                        source="_https://s3-media4.fl.yelpcdn.com/bphoto/GmIVpSkcTNO8SQpjmw3aLg/l.jpg"
                     />
                 </div>
             </div>

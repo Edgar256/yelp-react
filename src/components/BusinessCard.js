@@ -3,7 +3,7 @@ import React from 'react';
 function BusinessCard(props){
     return(
         <div className="business-card">
-            <img alt="Konomama" class="photo-img" height="" src="https://s3-media2.fl.yelpcdn.com/bphoto/-YVDSBrd5eQ4mlGFdfnUjA/l.jpg" srcset="https://s3-media2.fl.yelpcdn.com/bphoto/-YVDSBrd5eQ4mlGFdfnUjA/o.jpg 1.67x" width=""></img>
+            <img alt="Konomama" class="photo-img" height="" src={props.source} width=""></img>
             
             <div className="business-details">
                 <h5>{props.name}</h5>

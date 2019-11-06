@@ -5,6 +5,7 @@ import yelpLogo from './images/default.yelp_design_web.yji-b085a608c15f110ce750c
 import HomeIconLink from './components/HomeIconLink';
 import HelpCommunity from './components/HelpCommunity';
 import Locations from './components/Locations';
+import Categories from './components/Categories';
 
 function App() {
   return (
@@ -62,11 +63,12 @@ function App() {
 
       </div>
       <HelpCommunity 
-        image="here goes an image"
+        source="https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_large_assets/c40b1cb973c5/assets/img/illustrations/badges/write_review.png"
         title="Help the community"
         text="Find Yelp reviews helpful? Start helping others by sharing your experience."
       />
       <Locations />
+      <Categories />
       </div>      
     </body>
   );
