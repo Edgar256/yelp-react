@@ -33,3 +33,27 @@
 .custom-select{
   height: calc(1.5em + 0.75rem + 15px);
 }
+.home-page-logo-wrapper{
+  margin: auto auto 25px auto;
+}
+.clear{
+  clear: both;
+}
+.icons-home-wrapper{
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+.icons-home-wrapper > .col-sm-7{
+  margin: auto;
+  display: flex;
+}
+.home-icon-link{
+  color: #fff;
+  width: 25%;;
+}
+.home-icon{
+  padding: 1px;
+  margin: 5px;
+}

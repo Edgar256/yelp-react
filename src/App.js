@@ -1,35 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
+import yelpLogo from './images/default.yelp_design_web.yji-b085a608c15f110ce750ccef3e1e1db0.png';
+import HomeIconLink from './components/HomeIconLink';
 
 function App() {
   return (
     <body className="a">      
       <div className="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand navbar-white" href="#">Write A Review</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Events<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Talk</a>
-            </li>
-            <span className="empty-menu-space"></span>
-            <form class="form-inline">
-              <button class="btn btn-login my-2 my-sm-0" type="submit">Login</button>
-              <button class="btn btn-signup my-2 my-sm-0" type="submit">SignUp</button>
-            </form>
-          </ul>
-        </div>
-      </nav>
+      <Navigation />
       
       <div className=" jumbotron hero-wrapper row">
-        
+        <div className="home-page-logo-wrapper row">
+          <img src={yelpLogo} alt="Yelp Logo" />
+        </div>
         <div className="row">
           <div className="hero-logo"></div>
         </div>
@@ -50,6 +34,28 @@ function App() {
             </label>
           </div>
         </div> 
+        <div className="clear"></div>
+
+        <div className="icons-home-wrapper">
+          <div className="col-sm-7">            
+            <HomeIconLink 
+              svg="Svg"              
+              name="Heating"
+            />
+            <HomeIconLink 
+              svg="Svg"              
+              name="Restaurants"
+            />
+            <HomeIconLink 
+              svg="Svg"              
+              name="Home Services"
+            />
+            <HomeIconLink 
+              svg="Svg"              
+              name="Delivery"
+            />
+          </div>
+        </div>
       
 
       </div>
