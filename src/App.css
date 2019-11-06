@@ -21,7 +21,9 @@
 }
 .hero-wrapper{
   padding-top: 220px;
-  background-color: transparent;padding-top: 220px;
+  background-color: transparent;
+  padding-top: 220px;
+  margin-bottom: 80px;
 }
 .hero-logo{
   background-image: url(./images/default.yelp_design_web.yji-b085a608c15f110ce750ccef3e1e1db0.png);
@@ -56,4 +58,11 @@
 .home-icon{
   padding: 1px;
   margin: 5px;
+}
+.help-community{
+  display: flex;
+  padding: 15px;
+  background-color: #f0f3f8;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
 }

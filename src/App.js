@@ -3,6 +3,7 @@ import './App.css';
 import Navigation from './components/Navigation';
 import yelpLogo from './images/default.yelp_design_web.yji-b085a608c15f110ce750ccef3e1e1db0.png';
 import HomeIconLink from './components/HomeIconLink';
+import HelpCommunity from './components/HelpCommunity';
 
 function App() {
   return (
@@ -59,9 +60,11 @@ function App() {
       
 
       </div>
-      <div className="jumbtron">
-        here is the jumbtron
-      </div> 
+      <HelpCommunity 
+        image="here goes an image"
+        title="Help the community"
+        text="Find Yelp reviews helpful? Start helping others by sharing your experience."
+      />
       </div>      
     </body>
   );
