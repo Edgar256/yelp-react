@@ -46,14 +46,14 @@ function  Locations(){
                         location="Kampala"
                         category="Hotel"
                         time="5 years"
-                        source="_https://s3-media4.fl.yelpcdn.com/bphoto/GmIVpSkcTNO8SQpjmw3aLg/o.jpg"
+                        source="https://s3-media2.fl.yelpcdn.com/bphoto/B24fPDHYkuxUF4NdhZkz0Q/l.jpg"
                     />
                     <BusinessCard 
                         name="Oki Sushi"
                         location="Noe Valley"
                         category="Sushi Bars, Japanese"
                         time="2 years"
-                        source="_https://s3-media4.fl.yelpcdn.com/bphoto/GmIVpSkcTNO8SQpjmw3aLg/l.jpg"
+                        source="https://s3-media2.fl.yelpcdn.com/bphoto/B24fPDHYkuxUF4NdhZkz0Q/l.jpg"
                     />
                 </div>
             </div>

@@ -4,6 +4,7 @@ import Category from './Category';
 function Categories(props){
     return(
         <div className="categories">
+            <h5 className="yelp-red center-text">Browse Businesses by Category</h5>            
            <div className="container">
             <Category 
                     name="Restaurants"

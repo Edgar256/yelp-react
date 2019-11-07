@@ -53,6 +53,7 @@ function Footer(props){
                 <img 
                     src="https://s3-media0.fl.yelpcdn.com/assets/public/footer_cityscape.yelp_styleguide.yji-573fa19c843556eac5a998fc6d1f80f8.png"
                     alt="Footer backgroung image"
+                    className="img-footer-inner"
                 />
                 <div>
                     Copyright © 2004–2019 Yelp Inc. Yelp, Yelp logo, Yelp burst and related marks are registered trademarks of Yelp. Design by 
