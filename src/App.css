@@ -23,7 +23,7 @@
   padding-top: 220px;
   background-color: transparent;
   padding-top: 220px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 .hero-logo{
   background-image: url(./images/default.yelp_design_web.yji-b085a608c15f110ce750ccef3e1e1db0.png);
@@ -74,6 +74,10 @@
 }
 .center-text{
   text-align: center;
+}
+.locations{
+  text-align: center;
+  margin: 75px auto 50px auto;
 }
 .business-card-wrapper{
   display: flex;

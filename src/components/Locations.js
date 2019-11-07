@@ -4,7 +4,7 @@ import BusinessCard from './BusinessCard';
 
 function  Locations(){
     return(
-        <div className="center-text">
+        <div className="locations">
             <h4 className="yelp-red">Yelp in San Francisco</h4>
             <div className="locations-bar">
                 <div className="col-sm-8">                    
