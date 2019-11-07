@@ -69,9 +69,11 @@ function App() {
           text="Find Yelp reviews helpful? Start helping others by sharing your experience."
         />
         <Locations />
-        <Categories />
-        <MobileApps />
-      </div>   
+        
+        
+      </div> 
+      <Categories />  
+      <MobileApps />
       <Footer />
          
     </body>

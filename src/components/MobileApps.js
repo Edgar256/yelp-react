@@ -3,9 +3,9 @@ import MobApp from './MobApp';
 
 function MobileApps(props){
     return(
-        <div >
-            <div className="mobile-apps">
-                <h5 className="yelp-red">Yelp Mobile Apps</h5>
+        <div className="container" >
+            <div className="">
+                <h5 className="yelp-red center-text">Yelp Mobile Apps</h5>
             </div>
             <div className="mobile-apps">
                 <MobApp 
