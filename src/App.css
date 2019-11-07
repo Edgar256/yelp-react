@@ -31,6 +31,8 @@
 }
 .btn-search{
   background-color: #d32323 !important;
+  border-radius: 0px 10px 10px 0px !important;
+  border: 0px;
 }
 .custom-select{
   height: calc(1.5em + 0.75rem + 15px);
