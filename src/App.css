@@ -94,4 +94,8 @@
   display: inline-grid;
   padding: 20px;
   width: 25%;
+  text-align: center;
+}
+.category-image{
+  margin: auto;
 }
