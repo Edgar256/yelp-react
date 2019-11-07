@@ -49,6 +49,16 @@ function Footer(props){
                     <FooterLink  link="./new-page"  name="United States"/>
                 </div>
             </div>
+            <div className="container footer-image">
+                <img 
+                    src="https://s3-media0.fl.yelpcdn.com/assets/public/footer_cityscape.yelp_styleguide.yji-573fa19c843556eac5a998fc6d1f80f8.png"
+                    alt="Footer backgroung image"
+                />
+                <div>
+                    Copyright © 2004–2019 Yelp Inc. Yelp, Yelp logo, Yelp burst and related marks are registered trademarks of Yelp. Design by 
+                    <a href="https://edgar256.github.io" target="_blank">  Edgar Tinkamanyire 2019</a>
+                </div>
+            </div>
         </div>
     )
 }
