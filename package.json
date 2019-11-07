@@ -1,5 +1,6 @@
 {
-  "name": "favelist-react",
+  "name": "yelp",
+  "homepage": "https://edgar256.github.io/projects/yelp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
