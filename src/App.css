@@ -55,6 +55,9 @@
   color: #fff;
   width: 25%;;
 }
+.home-icon-link > span{
+  padding: 10px;
+}
 .home-icon{
   padding: 1px;
   margin: 5px;
