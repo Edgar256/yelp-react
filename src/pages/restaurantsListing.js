@@ -1,11 +1,18 @@
 import React from 'react';
 
-function restaurantsListing(){
+function RestaurantsListing(){
     return(
         <div>
+            Restaurants Listings page
+            Restaurants Listings page
+            Restaurants Listings page
+            Restaurants Listings page
+            Restaurants Listings page
+            Restaurants Listings page
+            Restaurants Listings page
             Restaurants Listings page
         </div>
     )
 }
 
-export default restaurantsListing;
+export default RestaurantsListing;
