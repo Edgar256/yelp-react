@@ -52,7 +52,7 @@ function Footer(props){
             <div className="container footer-image">
                 <img 
                     src="https://s3-media0.fl.yelpcdn.com/assets/public/footer_cityscape.yelp_styleguide.yji-573fa19c843556eac5a998fc6d1f80f8.png"
-                    alt="Footer backgroung image"
+                    alt="Footer backgroung "
                     className="img-footer-inner"
                 />
                 <div>
