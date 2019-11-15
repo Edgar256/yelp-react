@@ -204,7 +204,7 @@
 }
 .error-wrap{
   color: #d32323;
-  padding: 150px;
+  padding: 150px 0px 150px 0px;
   text-align: center;
 }
 .btn-order{
