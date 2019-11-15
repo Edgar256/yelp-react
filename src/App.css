@@ -202,6 +202,11 @@
   border-radius: 5px;
   padding: 5px;
 }
+.error-wrap{
+  color: #d32323;
+  padding: 150px;
+  text-align: center;
+}
 .btn-order{
   color: #000;
   background-color: #fff;
