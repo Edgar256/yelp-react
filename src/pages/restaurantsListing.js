@@ -1,10 +1,12 @@
 import React from 'react';
 import MapListing from '../components/MapListing';
 import BizCard from '../components/BizCard';
+import Footer from '../components/Footer';
 
 function RestaurantsListing(){
     return(
-        <div className="container">
+        <div>
+            <div className="container">
             <div className="row">
                 <div className="col-sm-9">
                     <h3>The Best 10 Home Services in San Francisco, CA</h3>
@@ -100,11 +102,11 @@ function RestaurantsListing(){
                     </div>
                 </div>                
                 <div className="col-sm-3">
-                    <MapListing />
+                    <MapListing />                        
                 </div>
+            </div> 
             </div>
-            
-            
+            <Footer />
         </div>
     )
 }
