@@ -9,6 +9,9 @@
   background-color: transparent !important;
   color: #fff !important;
 }
+.logo-link{
+  background-image: url(https://s3-media0.fl.yelpcdn.com/assets/public/default@2x.yelp_design_web.yji-a536dc4….png);
+}
 .empty-menu-space{
   width: 450px;
 }
@@ -75,7 +78,16 @@
   color: #d32323;
 }
 .yelp-red-bg{
-  background-color: #d32323;
+  background-color: #d32323 !important;
+}
+.btnLogin{
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btnSignup{
+  color: #000;
+  border: 1px solid #fff;
+  background-color: #fff;
 }
 .center-text{
   text-align: center;

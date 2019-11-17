@@ -2,10 +2,12 @@ import React from 'react';
 import MapListing from '../components/MapListing';
 import BizCard from '../components/BizCard';
 import Footer from '../components/Footer';
+import MainNav from '../components/MainNav';
 
 function AutomotiveListing(){
     return(
         <div>
+            <MainNav />
             <div className="container">
             <div className="row">
                 <div className="col-sm-9">
