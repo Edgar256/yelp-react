@@ -3,11 +3,15 @@ import MapListing from '../components/MapListing';
 import BizCard from '../components/BizCard';
 import Footer from '../components/Footer';
 import MainNav from '../components/MainNav';
+import CategoryFilter from '../components/CategoryFilter';
+import CategoryFilterButtons from '../components/CategoryFilterButtons';
 
 function RestaurantsListing(){
     return(
         <div>
             <MainNav />
+            <CategoryFilter />
+            <CategoryFilterButtons />
             <div className="container">
             <div className="row">
                 <div className="col-sm-9">
