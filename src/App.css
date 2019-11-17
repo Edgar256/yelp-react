@@ -303,6 +303,13 @@ body{
 .btn{
   font-size: 14px;
 }
+.btnFilter{
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+}
+.m-5{
+  margin: 5px;
+}
 .dropbtn {
   padding: 16px;
   font-size: 14px;
