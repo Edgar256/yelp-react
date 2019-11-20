@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 function  HelpCommunity(props){
     return(
@@ -9,7 +10,9 @@ function  HelpCommunity(props){
             <div className="col-sm-8">
                 <h2>{props.title}</h2>
                 <p>{props.text}</p>
-                <button className="btn btn-danger yelp-red-bg">Start Your First Review</button>
+                <Link to="/write-a-review">
+                    <button className="btn btn-danger yelp-red-bg">Start Your First Review</button>
+                </Link>
             </div>
         </div>
     )

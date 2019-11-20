@@ -14,6 +14,7 @@ import BeautySpasListing from './pages/BeautySpasListing';
 import AutomotiveListing from './pages/AutomotiveListing';
 import HomeServicesListing from './pages/HomeServicesListing';
 import Error from './pages/Error';
+import WriteAReview from './pages/WriteAReview';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/beauty-spas" component={BeautySpasListing} />
           <Route path="/automotive" component={AutomotiveListing} />
           <Route path="/home-services" component={HomeServicesListing} />
+          <Route path="/write-a-review" component={WriteAReview}/>
           <Route component={Error} />
         </Switch>
     </Router>
