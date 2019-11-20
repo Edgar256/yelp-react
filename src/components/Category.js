@@ -3,11 +3,11 @@ import {Link} from 'react-router-dom'
 
 function Category(props){
     return(
-        <a href={props.link} className="category">
+        <Link to="/{props.link} "className="category">
             <img src={props.source} alt={props.description} className="category-image"/>  
             {props.name}   
             <Link to="/{props.link}"></Link>
-        </a>
+        </Link>
     )
 }
 
