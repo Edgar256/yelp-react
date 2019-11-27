@@ -5,7 +5,9 @@ function MainNav(props){
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light yelp-red-bg">
                 <div className="container">
-                <a class="navbar-brand logo-link" href="#">logo</a>
+                <a class="navbar-brand logo-link" href="#">
+                    <img src="https://s3-media0.fl.yelpcdn.com/assets/public/default.yelp_design_web.yji-e02121e4b885bf89645bdc9ea402a681.png" alt="yelp logo"></img>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
