@@ -15,6 +15,9 @@ body{
 .logo-link{
   background-image: url(https://s3-media0.fl.yelpcdn.com/assets/public/default@2x.yelp_design_web.yji-a536dc4….png);
 }
+.input-field{
+  width: 385px !important;
+}
 .empty-menu-space{
   width: 450px;
 }
