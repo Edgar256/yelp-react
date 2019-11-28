@@ -74,6 +74,15 @@ function App() {
           <Route path="/yelp-mobile" component={YelpMobile} />
           <Route path="/developers" component={Developers} />
           <Route path="/rss" component={RSS} />
+          <Route path="yelp-for-business-owners" component={YelpForBusinessOwners} />
+          <Route path="claim-your-business-page" component={ClaimYourBusinessPage} />
+          <Route path="advertise-on-yelp" component={AdvertiseOnYelp} />
+          <Route path="yelp-reservations" component={YelpReservations} />
+          <Route path="yelp-wifi" component={YelpWifi} />
+          <Route path="yelp-wait-list" component={YelpWaitList} />
+          <Route path="business-success-stories" component={BusinessSuccessStories} />
+          <Route path="business-support" component={BusinessSupport} />
+          <Route path="yelp-blog-for-business-owner" component={YelpBlogForBusinessOwner} />
           <Route component={Error} />
         </Switch>
     </Router>
