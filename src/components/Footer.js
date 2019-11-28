@@ -8,39 +8,39 @@ function Footer(props){
             <div className="container row footer-inner">
                 <div className="col-sm-3">
                     <FooterTitle name="About"/>
-                    <FooterLink  link="./new-page"  name="About Yelp"/>
-                    <FooterLink  link="./new-page"  name="Careers"/>
-                    <FooterLink  link="./new-page"  name="Press"/>
-                    <FooterLink  link="./new-page"  name="Investor Relations"/>
-                    <FooterLink  link="./new-page"  name="Content Guidelines"/> 
-                    <FooterLink  link="./new-page"  name="Terms of Service"/>
-                    <FooterLink  link="./new-page"  name="Privacy Policy"/>
-                    <FooterLink  link="./new-page"  name="Ad Choices"/>   
+                    <FooterLink  link="./about"  name="About Yelp"/>
+                    <FooterLink  link="./careers"  name="Careers"/>
+                    <FooterLink  link="./press"  name="Press"/>
+                    <FooterLink  link="./investor-relations"  name="Investor Relations"/>
+                    <FooterLink  link="./content-guidelines"  name="Content Guidelines"/> 
+                    <FooterLink  link="./terms-of-service"  name="Terms of Service"/>
+                    <FooterLink  link="./privacy-policy"  name="Privacy Policy"/>
+                    <FooterLink  link="./nad-choices"  name="Ad Choices"/>   
                 </div>
                 <div className="col-sm-3">
                     <FooterTitle name="Discover"/>
-                    <FooterLink  link="./new-page"  name="Yelp Project Cost Guides"/>
-                    <FooterLink  link="./new-page"  name="Collections"/>
-                    <FooterLink  link="./new-page"  name="Talk"/>
-                    <FooterLink  link="./new-page"  name="Events"/>
-                    <FooterLink  link="./new-page"  name="The Local Yelp"/>
-                    <FooterLink  link="./new-page"  name="Yelp Blog"/> 
-                    <FooterLink  link="./new-page"  name="Support"/>
-                    <FooterLink  link="./new-page"  name="Yelp Mobile"/>
-                    <FooterLink  link="./new-page"  name="Developers"/>
-                    <FooterLink  link="./new-page"  name="RSS"/>  
+                    <FooterLink  link="./yelp-project-cost-guides"  name="Yelp Project Cost Guides"/>
+                    <FooterLink  link="./collections"  name="Collections"/>
+                    <FooterLink  link="./talk"  name="Talk"/>
+                    <FooterLink  link="./events"  name="Events"/>
+                    <FooterLink  link="./the-local-yelp"  name="The Local Yelp"/>
+                    <FooterLink  link="./yelp-blog"  name="Yelp Blog"/> 
+                    <FooterLink  link="./support"  name="Support"/>
+                    <FooterLink  link="./yelp-mobile"  name="Yelp Mobile"/>
+                    <FooterLink  link="./developers"  name="Developers"/>
+                    <FooterLink  link="./rss"  name="RSS"/>  
                 </div>
                 <div className="col-sm-3">
                     <FooterTitle name="Discover"/>
-                    <FooterLink  link="./new-page"  name="Yelp for Business Owners"/>
-                    <FooterLink  link="./new-page"  name="Claim your Business Page"/>
-                    <FooterLink  link="./new-page"  name="Advertise on Yelp"/>
-                    <FooterLink  link="./new-page"  name="Yelp Reservations"/>
-                    <FooterLink  link="./new-page"  name="Yelp Wifi"/>
-                    <FooterLink  link="./new-page"  name="Yelp Waitlist"/> 
-                    <FooterLink  link="./new-page"  name="Business Success Stories"/>
-                    <FooterLink  link="./new-page"  name="Business Support"/>
-                    <FooterLink  link="./new-page"  name="Yelp Blog for Buiness Owner"/>
+                    <FooterLink  link="./yelp-for-business-owners"  name="Yelp for Business Owners"/>
+                    <FooterLink  link="./claim-your-business-page"  name="Claim your Business Page"/>
+                    <FooterLink  link="./advertise-on-yelp"  name="Advertise on Yelp"/>
+                    <FooterLink  link="./yelp-reservations"  name="Yelp Reservations"/>
+                    <FooterLink  link="./yelp-wifi"  name="Yelp Wifi"/>
+                    <FooterLink  link="yelp-wait-list"  name="Yelp Waitlist"/> 
+                    <FooterLink  link="./business-success-stories"  name="Business Success Stories"/>
+                    <FooterLink  link="./business-support"  name="Business Support"/>
+                    <FooterLink  link="./yelp-blog-for-business-owner"  name="Yelp Blog for Business Owner"/>
                 </div>
                 <div className="col-sm-3">
                     <FooterTitle name="Languages"/>
