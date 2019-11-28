@@ -1,13 +1,16 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function MainNav(props){
     return(
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light yelp-red-bg">
                 <div className="container">
-                <a className="navbar-brand logo-link" href="#">
-                    <img src="https://s3-media0.fl.yelpcdn.com/assets/public/default.yelp_design_web.yji-e02121e4b885bf89645bdc9ea402a681.png" alt="yelp logo"></img>
-                </a>
+                <Link to="/">
+                    <div className="navbar-brand logo-link">
+                        <img src="https://s3-media0.fl.yelpcdn.com/assets/public/default.yelp_design_web.yji-e02121e4b885bf89645bdc9ea402a681.png" alt="yelp logo"></img>
+                    </div>
+                </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

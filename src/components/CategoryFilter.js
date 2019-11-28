@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 function CategoryFilter(){
     return(
@@ -11,9 +12,20 @@ function CategoryFilter(){
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="icon_svg"><path d="M18.364 9.525L16.95 8.11 12 13.06 7.05 8.11 5.636 9.526 12 15.89l6.364-6.365z"></path></svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <div className="dp-cat">
+                            <div className="dp-cat-link">
+                                <Link to="/restaurants">Delivery</Link>
+                                <Link to="/restaurants">Reservations</Link>
+                                <Link to="/restaurants">Burgers</Link>
+                                <Link to="/restaurants">Italian</Link>
+                            </div>
+                            <div className="dp-cat-link">
+                                <Link to="/restaurants">Takeout</Link>
+                                <Link to="/restaurants">WaitList</Link>
+                                <Link to="/restaurants">Chinese</Link>
+                                <Link to="/restaurants">Mexican</Link>
+                            </div> 
+                        </div>                       
                     </div>
                 </div>
                 <div className="dropdown">
@@ -23,9 +35,22 @@ function CategoryFilter(){
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="icon_svg"><path d="M18.364 9.525L16.95 8.11 12 13.06 7.05 8.11 5.636 9.526 12 15.89l6.364-6.365z"></path></svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <div className="dp-cat">
+                            <div className="dp-cat-link">
+                                <Link to="/home-services">Contractors</Link>
+                                <Link to="/home-services">Electricians</Link>
+                                <Link to="/home-services">Home Cleaners</Link>
+                                <Link to="/home-services">Contractors</Link>
+                                <Link to="/home-services">HVAC</Link>
+                            </div>
+                            <div className="dp-cat-link">
+                                <Link to="/home-services">Land Scaping</Link>
+                                <Link to="/home-services">Contractors</Link>
+                                <Link to="/home-services">Locksmith</Link>
+                                <Link to="/home-services">Movers</Link>
+                                <Link to="/home-services">Plumbers</Link>
+                            </div>
+                        </div>                        
                     </div>
                 </div>
                 <div className="dropdown">
@@ -35,9 +60,20 @@ function CategoryFilter(){
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="icon_svg"><path d="M18.364 9.525L16.95 8.11 12 13.06 7.05 8.11 5.636 9.526 12 15.89l6.364-6.365z"></path></svg>
                     </button>
                     <div className="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <div className="dp-cat">
+                            <div className="dp-cat-link">
+                                <Link to="/automotive">Auto Repair</Link>
+                                <Link to="/automotive">Auto Detailing</Link>
+                                <Link to="/automotive">Body Shops</Link>
+                                <Link to="/automotive">Car Wash</Link>
+                            </div>
+                            <div className="dp-cat-link">
+                                <Link to="/automotive">Car Dealers</Link>
+                                <Link to="/automotive">Oil Change</Link>
+                                <Link to="/automotive">Parking</Link>
+                                <Link to="/automotive">Towing</Link>
+                            </div>
+                        </div>  
                     </div>
                 </div>
                 <div className="dropdown">
