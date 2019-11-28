@@ -9,7 +9,7 @@ function Press(){
             <MainNav />
             <CategoryFilter />
             <div className="container">
-                <h2>Horray, the link you are looking for doesnot exit on this server !!!</h2>    
+                <h2>Horray, the link you are looking for is Press page</h2>    
             </div>
             <Footer />
         </div>

@@ -9,7 +9,7 @@ function InvestorRelations(){
             <MainNav />
             <CategoryFilter />
             <div className="container">
-                <h2>Horray, the link you are looking for doesnot exit on this server !!!</h2>    
+                <h2>Horray, the link you are looking for is the Investor relations page</h2>    
             </div>
             <Footer />
         </div>
