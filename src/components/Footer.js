@@ -8,7 +8,7 @@ function Footer(props){
             <div className="container row footer-inner">
                 <div className="col-sm-3">
                     <FooterTitle name="About"/>
-                    <FooterLink  link="./about"  name="About Yelp"/>
+                    <FooterLink  link="./about-yelp"  name="About Yelp"/>
                     <FooterLink  link="./careers"  name="Careers"/>
                     <FooterLink  link="./press"  name="Press"/>
                     <FooterLink  link="./investor-relations"  name="Investor Relations"/>

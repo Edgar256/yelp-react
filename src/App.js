@@ -48,8 +48,8 @@ function App() {
     <Router>
         <Switch>
           <Route path="/" component={Home} exact />
-					<Route path="/restaurants" component={RestaurantsListing} />
-          <Route path="/shopping" component={ShoppingListing} />
+					<Route path="./restaurants" component={RestaurantsListing} />
+          <Route path="./shopping" component={ShoppingListing} />
           <Route path="/night-life" component={NightLifeListing} />
           <Route path="/active-life" component={ActiveLifeListing} />
           <Route path="/beauty-spas" component={BeautySpasListing} />
@@ -83,6 +83,7 @@ function App() {
           <Route path="/business-success-stories" component={BusinessSuccessStories} />
           <Route path="/business-support" component={BusinessSupport} />
           <Route path="/yelp-blog-for-business-owner" component={YelpBlogForBusinessOwner} />
+          
           <Route component={Error} />
         </Switch>
     </Router>
