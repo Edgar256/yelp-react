@@ -1,8 +1,8 @@
 import React from 'react';
-import {BrowserRouter as Router, 
+import {
+          BrowserRouter as Router, 
           Route,
-          Switch,
-          Link
+          Switch
 } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
@@ -45,11 +45,11 @@ import Error from './pages/Error';
 
 function App() {
   return (
-    <Router>
+    <Router basename="./">
         <Switch>
-          <Route path="/" component={Home} exact />
-					<Route path="./restaurants" component={RestaurantsListing} />
-          <Route path="./shopping" component={ShoppingListing} />
+          <Route path="/index.html" component={Home} exact />
+					<Route path="/restaurants" component={RestaurantsListing} />
+          <Route path="/shopping" component={ShoppingListing} />
           <Route path="/night-life" component={NightLifeListing} />
           <Route path="/active-life" component={ActiveLifeListing} />
           <Route path="/beauty-spas" component={BeautySpasListing} />
@@ -84,7 +84,7 @@ function App() {
           <Route path="/business-support" component={BusinessSupport} />
           <Route path="/yelp-blog-for-business-owner" component={YelpBlogForBusinessOwner} />
           
-          <Route component={Error} />
+          {/* <Route component={Error} /> */}
         </Switch>
     </Router>
   );
